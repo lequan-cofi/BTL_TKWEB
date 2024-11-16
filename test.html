@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Web Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Welcome to My Website</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for showcasing content.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a>
+    </div>
+
+    <!-- Columns Section -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h3>Column 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Column 2</h3>
+                <p>Suspendisse vitae mi urna. Cras accumsan lacus if luctus ultrices.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Column 3</h3>
+                <p>Etiam facilisis lorem eget volutpat vehicula.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Gallery -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Image Gallery</h2>
+    <div class="row">
+        <!-- Image 1 -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Image 1">
+        </div>
+        <!-- Image 2 -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Image 2">
+        </div>
+        <!-- Image 3 -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Image 3">
+        </div>
+        <!-- Image 4 -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Image 4">
+        </div>
+        <!-- Image 5 -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Image 5">
+        </div>
+        <!-- Image 6 -->
+        <div class="col-md-4 col-sm-6 mb-4">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Image 6">
+        </div>
+    </div>
+</div>
+<!-- Contact Form -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+        <!-- Name Input -->
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <!-- Email Input -->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <!-- Message Textarea -->
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Type your message here"></textarea>
+        </div>
+        <!-- Submit Button -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+<!-- Pricing Table -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Our Pricing Plans</h2>
+    <div class="row">
+        <!-- Basic Plan -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-header bg-primary text-white">
+                    Basic
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">$10/month</h5>
+                    <p class="card-text">Ideal for individuals just starting out.</p>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+        <!-- Standard Plan -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-header bg-success text-white">
+                    Standard
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">$20/month</h5>
+                    <p class="card-text">Perfect for growing teams and small businesses.</p>
+                    <button class="btn btn-success">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+        <!-- Premium Plan -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-header bg-danger text-white">
+                    Premium
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">$50/month</h5>
+                    <p class="card-text">Best for large enterprises and advanced users.</p>
+                    <button class="btn btn-danger">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
