@@ -1,0 +1,70 @@
+/* Định dạng thanh sidebar */
+#sidebar {
+    width: 250px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+  }
+  
+  #sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #sidebar li {
+    position: relative; /* Quan trọng để định vị menu con */
+    padding: 10px 5px;
+  }
+  
+  #sidebar a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  #sidebar a:hover {
+    color: #007bff; /* Đổi màu khi hover */
+  }
+  
+  /* Định dạng menu con (ẩn mặc định) */
+  .subnav {
+    display: none;
+    position: absolute;
+    left: 100%; /* Đẩy menu con ra bên phải */
+    top: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    min-width: 200px;
+  }
+  
+  /* Định dạng các mục trong menu con */
+  .subnav li {
+    padding: 5px 0;
+  }
+  
+  .subnav .first-item {
+    font-weight: bold;
+  }
+  
+  .line {
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Hiện menu con khi di chuột vào mục cha */
+  .nav-item:hover .subnav {
+    display: block;
+  }
+  
+  /* Hiệu ứng hover cho menu con */
+  .subnav li:hover {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
